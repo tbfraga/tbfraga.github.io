@@ -38,18 +38,17 @@
 <h2> COPSolver manual </h2>
 <h4>Author: Tatiana Balbi Fraga</h4>
 <h4>e-mail: tbfraga@proton.me</h4>
-<h4>version: 1.0-1<h4>
-<h4>last modification: 2023, October, 28.</h4>
+<h4>version: 2.0-3<h4>
+<h4>last modification: 2023, December, 11.</h4>
 
 
 <h3>instalation guide for elementary OS</h3>
-<p>download COPSolver repository from https://github.com/tbfraga/COPSolver</p>
-<p>or clone COPSolver repo using cmd $ git clone https://github.com/tbfraga/COPSolver.git</p>
-<p>go to download folder and unzip COPSolver_1.0-1.zip </p>
-<p>go to COPSolver_1.0-1 using terminal </p>
-<p>$ cd Downloads/COPSolver_1.0-1 </p>
+<p>download COPSolver repository from https://github.com/tbfraga/COPSolver/releases</p>
+<p>go to download folder and unzip COPSolver_2.0-3.zip </p>
+<p>go to COPSolver_2.0-3 using terminal </p>
+<p>$ cd Downloads/COPSolver_2.0-3 </p>
 <p>configure system, install .deb file and run copsolver</p>
-<p>$ ./run </p>
+<p>$ ./run.sh </p>
 
 <p>Ready !!! You can now access COPSolver from the elementary OS Applications menu :)</p>
 <p>If you want you can also run COPSolver using terminal</p>
@@ -61,18 +60,41 @@
 <p>After adjusting these two files, you just need to run the solver.</p>
 
 <h3>using data.txt for defining a benchmark</h3>
-<p>If you use standart installation, data.txt will be located at /data/data.txt. </p>
+<p>If you use standart installation, data.txt and config.txt files will be located at /COPSolver/data/ </p>
 <p>You can change data.txt file as specified below: </p>
 <p>Each group of lines contains commented lines - with specifications about the input data (starting with "//") - followed by a data line - containing the input data.</p>
 <p>Note that the commented lines shows the type of data and the amount of data that must be informed in the data line.</p>
 <p>For example, UNSIGNED INT (N) means that a single positive integer value must be entered in the data line, while UNSIGNED INT (D_1,...,D_N) means that N positive integer values must be entered in the data line.</p>
 
+<h3>benchmarks</h3>
+
+<p>If you use standart installation, predefined benchmarks will be located at /COPSolver/data/benchmarks/ </p>
+
+<p> The cop folder contains benchmarks for the use of the cop class (combinatorial optimization problems) while the clssp folder contains benchmarks for use of the clssp class (multicriteria classification). </p>
+
+<p> To use a beckmark, just copy a config.txt.* and a data.txt.* files for the /COPSolver/data/ folder and then rename the files removing the text ".*" after .txt (leaving only config.txt and data.txt, respectively.) </p>
+
 <h3>outputs</h3>
 <p>COPSolver will generate the following outputs:</p>
+
+<h4>COPSolver: library for solving classification problems</h4>
+
+<p>AHP_problem_org.txt and AHP_problem_adj.txt: files containing the original problem and an adjusted version of the problem;</p>
+<p>AHP_solution.txt: a file containing the last solver solution (ABC and AHP classifications).</p>
+
+<p>AHP_problem_adj file contains the pairwise criteria comparisons matrix adjusted by Fraga's constructive method. </p> 
+<p>Such adjustment is made seeking to reduce the consistency rate of the matrix. </p>
+<p>This file also present the criteria weights, which are calculated by Saaty's Analytical Hierarchy Process. </p>
+
+<p>AHP_problem_org.txt, AHP_problem_adj.txt and AHP_solution.txt files will be located at /COPSolver/results folder.</p>
+
+<h4>COPSolver: library for solving the multi-product p-batch processing time maximization problem</h4>
+
 <p>output.txt: a file containing the last solver solution;</p>
 <p>problem.txt: a file containing the last problem definition;</p>
 <p>data.ldt: a LINGO data file with the last problem definition;</p>
-<p>output.txt, problem.txt and data.ldt files will be located at /results folder.</p>
+
+<p>output.txt, problem.txt and data.ldt files will be located at /COPSolver/results folder.</p>
 
 <h3>LINGO solver</h3>
 
