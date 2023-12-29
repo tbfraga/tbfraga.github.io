@@ -1,4 +1,4 @@
-// benchmark - demand pattern classification - williams solution - alexia data file
+// benchmark - demand pattern classification - solution by williams's method - alexia's data file
 
 // statistic: 
 
