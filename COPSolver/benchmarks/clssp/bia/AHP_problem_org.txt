@@ -1,4 +1,4 @@
-// COPSolver benchmark - multicriteria classification - solution (problem + original matrix) - bia data file
+// COPSolver benchmark - multicriteria classification - solution (problem - original matrix) - bia's data file
 
 --> Data:
 
