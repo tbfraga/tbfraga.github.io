@@ -20,7 +20,8 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 30vh;
+    margin-top: 30vh;
+    bottom: 0;
     right: 0;
     width: 200px;
     height: 100vh;
