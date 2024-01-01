@@ -9,7 +9,7 @@ body {
 }
  
 .head {
-    height: 20vh;
+    height: 30vh;
     box-sizing: border-box;
     position: fixed;
 }
@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 20vh;
+    top: 30vh;
     right: 0;
     width: 200px;
     height: 100vh;
@@ -33,9 +33,9 @@ body {
 
 .content {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
-    margin-top: 10vh;
+    margin-top: 30vh;
     margin-left: 200px;
     text-align: justify;
 }
