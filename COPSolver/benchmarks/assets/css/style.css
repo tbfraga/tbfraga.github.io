@@ -9,7 +9,7 @@ body {
 }
  
 .head {
-    height: 30vh;
+    height: 25vh;
     box-sizing: border-box;
     position: fixed;
 }
@@ -21,7 +21,7 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 30vh;
+    top: 25vh;
     left: 0;
     width: 200px;
     height: 100vh;
