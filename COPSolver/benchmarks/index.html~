@@ -36,7 +36,7 @@
 <body>
 
 <!-- Side navigation -->
-<div style="left: 0;background-color: #111;overflow-x: hidden;padding-top: 20px;">
+<div style="color:blue;text-align:center;">
   <a href="#">About</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
