@@ -32,13 +32,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<menu type="context" id="popup-menu">
-  <menuitem>Action</menuitem>
-  <menuitem>Another action</menuitem>
-  <hr>
-  <menuitem>Separated action</menuitem>
-</menu>
-
 <h1>Products developed by T. B. Fraga</h1>
 
 <body>
