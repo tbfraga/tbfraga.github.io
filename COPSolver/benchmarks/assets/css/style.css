@@ -8,33 +8,23 @@ body {
     padding: 0;
 }
  
-.head {
-    height: 25vh;
-    box-sizing: border-box;
-    position: fixed;
-}
-
 .container {
     display: flex;
-    bottom: 20vh;
 }
-
+ 
 .sidebar {
-    position: fixed;
-    top: 25vh;
-    left: 0;
     width: 200px;
     height: 100vh;
     background-color: #136a13;
     color: #fff;
     box-sizing: border-box;
+    position: fixed;
 }
-
+ 
 .content {
     flex: 1;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
-    margin-top: 0vh;
     margin-left: 200px;
     text-align: justify;
 }
