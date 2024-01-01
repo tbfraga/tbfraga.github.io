@@ -31,6 +31,7 @@ body {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 10vh;
     margin-left: 200px;
     text-align: justify;
 }
