@@ -9,6 +9,7 @@ body {
 }
  
 .head {
+    height: 10vh;
     box-sizing: border-box;
     position: fixed;
 }
