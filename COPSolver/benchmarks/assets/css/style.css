@@ -21,7 +21,6 @@ body {
 
 .sidebar {
     position: fixed;
-    padding: 30px;
     bottom: 20vh;
     left: 0;
     width: 200px;
