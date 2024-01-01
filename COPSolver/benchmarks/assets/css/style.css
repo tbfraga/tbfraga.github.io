@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     position: fixed;
-    margin-top: 30vh;
+    padding: 30px;
     bottom: 0;
     right: 0;
     width: 200px;
@@ -28,8 +28,6 @@ body {
     background-color: #136a13;
     color: #fff;
     box-sizing: border-box;
-    margin-top: 10vh;
-    position: fixed;
 }
 
 .content {
