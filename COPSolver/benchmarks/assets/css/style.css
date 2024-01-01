@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #136a13;
+    color: #fff;
+    box-sizing: border-box;
+    position: fixed;
+}
+
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
