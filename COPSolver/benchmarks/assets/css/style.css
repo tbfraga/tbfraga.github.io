@@ -9,6 +9,8 @@ body {
 }
  
 .container {
+    height: 120vh;
+    box-sizing: border-box;
     display: flex;
 }
  
