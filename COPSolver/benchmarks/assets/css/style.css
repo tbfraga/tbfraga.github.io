@@ -12,6 +12,14 @@ body {
     display: flex;
 }
  
+.headbar {
+    height: 20vh;
+    background-color: #136a13;
+    color: #fff;
+    box-sizing: border-box;
+    position: fixed;
+}
+ 
 .sidebar {
     width: 200px;
     height: 120vh;
