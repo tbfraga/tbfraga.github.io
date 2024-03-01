@@ -13,7 +13,7 @@ ul {
     margin: 0;
     padding: 20px;
     background-color: #136a13;
-    border-radius: 25px;
+    border-radius: 10px;
 }
  
 li {
@@ -22,6 +22,7 @@ li {
 }
  
 li a {
+    display: block;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
