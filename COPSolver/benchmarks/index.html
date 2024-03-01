@@ -32,44 +32,85 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+<style>
+
+.lMenu {
+}
+
+.sidebar {
+    position: fixed;
+    top: 15vh;
+    width: 200px;
+    height: 120vh;
+    padding: 20px;
+    background-color: #136a13;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+:target:before {
+content:"";
+display:block;
+height:15vh; /* fixed header height*/
+margin:-15vh 0 0; /* negative fixed header height */
+}
+
+</style>
+
 <body>
 
-<div class="container">
+<div style="position: fixed; top: 0vh; left: 200px; height: 5vh; width:100%; background-color: #F8F8FF; z-index: 2;">
+    <nav>
+        <ul>
+            <li style="display: inline-block; text-decoration: none"><a href="https://tbfraga.github.io/">Home</a></li>
+            <li style="display: inline-block; text-decoration: none"><a href="https://tbfraga.github.io/COPSolver/">COPSolver</a></li>
+            <li style="display: inline-block; text-decoration: none"><strong>Benchmarks</strong></li>
+            <li style="display: inline-block; text-decoration: none"><a href="https://tbfraga.github.io/COPSolver/documentation/">Documentation</a></li>
+            <li style="display: inline-block; text-decoration: none"><a href="https://tbfraga.github.io/COPSolver/installation/">Installation</a></li>
+        </ul>
+    </nav>
+</div>
 
 <!-- headbar -->
-<div class="headbar">
-
-<a class="nemo" href="https://tbfraga.github.io/"> <button class="button">  Home </button> </a>
-<a class="nemo" href="https://tbfraga.github.io/COPSolver/"> <button class="button">  COPSolver </button> </a>
-<a class="nemo" href="https://tbfraga.github.io/COPSolver/documentation/">  <button class="button">  Documentation </button> </a>
-<a class="nemo" href="https://tbfraga.github.io/COPSolver/installation/">  <button class="button">  Installation </button></a>
-
-  <h3><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" </a> COPSolver is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.</a> </h3> 
+<div style="position: fixed;  top: 5vh; height: 10vh; width:100%;  background-color: #136a13; color: #fff; box-sizing: border-box; z-index: 3;">
+    <h3><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" </a> COPSolver and all material made available here are licensed under a <a style="color: #fff;" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a> </h3> 
 </div>
 
 <!-- sidebar -->
-<div class="sidebar">
-  <a href="#vclss_mcc">copsolver-vclss-mcc</a>
+<div class="sidebar" style="z-index: 4;">
+    <a href="#vclss_mcc">copsolver-vclss-mcc</a>
     <ul>
-        <li>car mechanics company</li>
-        <li>furniture trades company</li>
-        <li>plastic packaging manufacturing company</li>
+        <li><a href="#car_mechanics">car mechanics company</a></li>
+        <li><a href="#furniture_trades">furniture trades company</a></li>
+        <li><a href="#plastic_packaging">plastic packaging manufacturing company</a></li>
     </ul>
-  <a href="#vdpc_dpc">copsolver-vdpc-dpc</a>
+    <a href="#vdpc_dpc">copsolver-vdpc-dpc</a>
 </div>
 
-<!-- page content -->
-<div class="content">
+<div style="top: 15vh; height: 120vh; box-sizing: border-box; display: flex;">
 
-<h2> COPSolver benchmarks </h2>
+    <!-- page content -->
+    <div style="flex: 1; position: relative; top: 15vh; left: 200px; padding: 10px; z-index: 1;">
 
-<div id="vclss_mcc">
+        <h2> COPSolver benchmarks </h2>
 
-    <h3> COPSolver: library for solving the multicriteria classification problem </h3>
+<div>
+
+    <h3 id="vclss_mcc"> COPSolver: library for solving the multicriteria classification problem </h3>
 
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/vclss-mcc.0-1/config.txt">config.txt</a> (version vclss_mcc.0-1) </p>
 
-    <h4> car mechanics company </h4>
+    <h4 id="car_mechanics"> car mechanics company </h4>
 
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/data.txt">data.txt</a> (version vclss_mcc.0-1) </p>
 
@@ -78,8 +119,8 @@
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/p_list.txt">data by code</a></p>
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_problem_org.txt">problem formatted</a></p>
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_problem_adj.txt">problem formatted + adjusted pairwise matrix</a></p>
-
-    <h4> furniture trades company </h4>
+    
+    <h4 id="furniture_trades"> furniture trades company </h4>
 
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/config.txt"> config.txt </a> (version vclss_mcc.0-2) </p>
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/data.txt"> data.txt </a> (adjusted data after COPSolver results - version vclss_mcc.0-2) </p>
@@ -114,7 +155,7 @@
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_problem_org.txt"> problem formatted </a></p>
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_problem_adj.txt"> problem formatted + adjusted pairwise matrix </a></p>
 
-    <h4> plastic packaging manufacturing company </h4>
+    <h4 id="plastic_packaging"> plastic packaging manufacturing company </h4>
 
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/data.txt">data.txt</a> (version vclss_mcc.0-1) </p>
 
@@ -123,10 +164,8 @@
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/p_list.txt">data by code</a></p>
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_problem_org.txt">problem formatted</a></p>
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_problem_adj.txt">problem formatted + adjusted pairwise matrix</a></p>
-</div>
 
-<div id="vdpc_dpc">
-    <h3> COPSolver: library for solving the demand pattern classification problem </h3>
+    <h3 id="vdpc_dpc"> COPSolver: library for solving the demand pattern classification problem </h3>
 
     <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/config.txt">config.txt</a></p>
 
