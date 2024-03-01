@@ -21,23 +21,19 @@ li {
 }
  
 li a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-}
- 
-li a:hover:not(.active) {
     display: block;
     color: #fff;
     text-decoration: none;
     padding: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s;
+    padding: 14px 16px;
     border-radius: 10px;
 }
-
-li a:hover {
-    background-color: #2980b9;
+ 
+li a:hover:not(.active) {
+    background-color: #111;
+    border-radius: 25px;
 }
  
 .active {
