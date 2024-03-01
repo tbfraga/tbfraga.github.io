@@ -15,7 +15,7 @@ body {
 }
  
 .headbar {
-    height: 15vh;
+    height: 10vh;
     left: 0;
     top: 0;
     background-color: #136a13;
@@ -28,7 +28,8 @@ body {
     width: 200px;
     height: 120vh;
     left: 0;
-    top: 15vh;
+    top: 10vh;
+    padding: 4px;
     background-color: #136a13;
     color: #fff;
     box-sizing: border-box;
@@ -38,7 +39,7 @@ body {
 .content {
     flex: 1;
     left: 20px;
-    top: 15vh;
+    top: 10vh;
     box-sizing: border-box;
     margin-left: 200px;
     text-align: justify;
