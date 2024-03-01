@@ -95,7 +95,7 @@ li a:hover {
 }
  
 .nemo a {
-    display: inline;
+    display: inline-block;
     color: #fff;
     text-decoration: none;
     padding: 10px;
