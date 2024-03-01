@@ -16,6 +16,8 @@ body {
  
 .headbar {
     height: 20vh;
+    left: 0;
+    top: 0;
     background-color: #136a13;
     color: #fff;
     box-sizing: border-box;
@@ -25,6 +27,8 @@ body {
 .sidebar {
     width: 200px;
     height: 120vh;
+    left: 0;
+    top: 20vh;
     background-color: #136a13;
     color: #fff;
     box-sizing: border-box;
