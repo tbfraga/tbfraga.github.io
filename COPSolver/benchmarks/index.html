@@ -68,6 +68,26 @@ left: 200px; /* fixed header height*/
 margin:-15vh -200px 0; /* negative fixed header height */
 }
 
+.listItemClass { 
+    color: #858585; 
+    font-size: 16px; 
+    padding: 0; 
+    width: 1400px; 
+    border: 2px solid #cecece; 
+} 
+  
+.listItemClass li { 
+    list-style: none; 
+    border-bottom: 2px dotted #cecece; 
+    text-indent: 16px; 
+    height: auto; 
+    padding: 5px; 
+} 
+  
+.listItemClass li:hover { 
+    background-color: #f5f5f5; 
+} 
+
 </style>
 
 <body>
@@ -100,89 +120,90 @@ margin:-15vh -200px 0; /* negative fixed header height */
     <a href="#vdpc_dpc">copsolver-vdpc-dpc</a>
 </div>
 
-<div style="top: 15vh; height: 120vh; box-sizing: border-box; display: flex;">
+<div class="listItemClass" style="top: 15vh; height: 310vh; box-sizing: border-box; display: flex;">
 
     <!-- page content -->
-    <div style="flex: 1; position: relative; top: 15vh; left: 200px; padding: 10px; z-index: 1;">
+    <div style="flex: 1; position: relative; top: 15vh; left: 200px; padding: 10px; z-index: 1; width: 2px; float: left; height: 280vh;  margin-left: 35px; border-left: 1px solid green; border-right: 1px solid green; ">
+        <li> <h2> COPSolver benchmarks </h2> </li>
 
-        <h2> COPSolver benchmarks </h2>
+        <li> <h3 id="vclss_mcc"> COPSolver: library for solving the multicriteria classification problem </h3> </li>
 
-<div>
+        <li> <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/vclss-mcc.0-1/config.txt">config.txt</a> (version vclss_mcc.0-1) </p></li>
 
-    <h3 id="vclss_mcc"> COPSolver: library for solving the multicriteria classification problem </h3>
+        <li> <h4 id="car_mechanics"> car mechanics company </h4> </li>
+        
+        <li> <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/data.txt">data.txt</a> (version vclss_mcc.0-1) </p> </li>
 
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/vclss-mcc.0-1/config.txt">config.txt</a> (version vclss_mcc.0-1) </p>
-
-    <h4 id="car_mechanics"> car mechanics company </h4>
-
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/data.txt">data.txt</a> (version vclss_mcc.0-1) </p>
-
-    <h5> outputs </h5>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_solution.txt">solution by ABC + AHP Saaty's method</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/p_list.txt">data by code</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_problem_org.txt">problem formatted</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_problem_adj.txt">problem formatted + adjusted pairwise matrix</a></p>
+        <li> <h5> outputs </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_solution.txt">solution by ABC + AHP Saaty's method</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/p_list.txt">data by code</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_problem_org.txt">problem formatted</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/erika/AHP_problem_adj.txt">problem formatted + adjusted pairwise matrix</a></p> </li>
     
-    <h4 id="furniture_trades"> furniture trades company </h4>
+        <li> <h4 id="furniture_trades"> furniture trades company </h4> </li>
 
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/config.txt"> config.txt </a> (version vclss_mcc.0-2) </p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/data.txt"> data.txt </a> (adjusted data after COPSolver results - version vclss_mcc.0-2) </p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/data.txt"> data.txt </a> (original data - version vclss_mcc.0-2) </p>
+        <li> <h5> inputs (version vclss_mcc.0-2) </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/config.txt"> config.txt </a>  </p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/data.txt"> data.txt </a> (data manually adjusted after COPSolver results) </p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/data.txt"> data.txt </a> (original data) </p> </li>
 
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/config.txt">config.txt</a> (version vclss_mcc.0-1) </p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/data.txt">data.txt</a> (version vclss_mcc.0-1) </p>
+        <li> <h5> inputs (version vclss_mcc.0-1) </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/config.txt">config.txt</a> </p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/data.txt">data.txt</a> </p> </li>
 
-    <h5> outputs (data adjusted after COPSolver results -  version vclss_mcc.0-2) </h5>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/AHP_solution.txt">solution by Fraga's ABC + AHP Saaty's method</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/p_list.txt">data by code</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/AHP_problem_org.txt">problem formatted </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/AHP_problem_reord.txt">problem formatted + data reordered </a></p>
+        <li> <h5> outputs (data adjusted after COPSolver results -  version vclss_mcc.0-2) </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/AHP_solution.txt">solution by Fraga's ABC + AHP Saaty's method</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/p_list.txt">data by code</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/AHP_problem_org.txt">problem formatted </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/adjusted-data/results/AHP_problem_reord.txt">problem formatted + data reordered </a></p> </li>
 
-    <h5> outputs (data reordered - version vclss_mcc.0-2) </h5>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_solution.txt">solution by Fraga's ABC + AHP Saaty's method</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/p_list.txt">data by code</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_problem_org.txt">problem formatted </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_problem_reord.txt">problem formatted + data reordered </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_problem_adj.txt">problem formatted + data reordered + adjusted pairwise matrix</a></p>
+        <li> <h5> outputs (data reordered - version vclss_mcc.0-2) </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_solution.txt">solution by Fraga's ABC + AHP Saaty's method</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/p_list.txt">data by code</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_problem_org.txt">problem formatted </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_problem_reord.txt">problem formatted + data reordered </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/reordered/results/AHP_problem_adj.txt">problem formatted + data reordered + adjusted pairwise matrix</a></p> </li>
 
-    <h5> outputs (original data - version vclss_mcc.0-2) </h5>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_solution.txt"> solution by Fraga's ABC + AHP Saaty's method</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/p_list.txt"> data by code </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_problem_org.txt"> problem formatted </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_problem_reord.txt"> problem formatted + data reordered </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_problem_adj.txt"> problem formatted + data reordered + adjusted pairwise matrix</a></p>
+        <li> <h5> outputs (original data - version vclss_mcc.0-2) </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_solution.txt"> solution by Fraga's ABC + AHP Saaty's method</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/p_list.txt"> data by code </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_problem_org.txt"> problem formatted </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_problem_reord.txt"> problem formatted + data reordered </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/original-data/results/AHP_problem_adj.txt"> problem formatted + data reordered + adjusted pairwise matrix</a></p> </li>
 
-    <h5> outputs (version vclss_mcc.0-1) </h5>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_solution.txt"> solution by ABC + AHP Saaty's method </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/p_list.txt"> data by code </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_problem_org.txt"> problem formatted </a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_problem_adj.txt"> problem formatted + adjusted pairwise matrix </a></p>
+        <li> <h5> outputs (version vclss_mcc.0-1) </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_solution.txt"> solution by ABC + AHP Saaty's method </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/p_list.txt"> data by code </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_problem_org.txt"> problem formatted </a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/alexia/vclss-mcc.0-1/results/AHP_problem_adj.txt"> problem formatted + adjusted pairwise matrix </a></p> </li>
 
-    <h4 id="plastic_packaging"> plastic packaging manufacturing company </h4>
+        <li> <h4 id="plastic_packaging"> plastic packaging manufacturing company </h4> </li>
 
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/data.txt">data.txt</a> (version vclss_mcc.0-1) </p>
+        <li> <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/data.txt">data.txt</a> (version vclss_mcc.0-1) </p> </li>
 
-    <h5> outputs </h5>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_solution.txt">solution by ABC + AHP Saaty's method</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/p_list.txt">data by code</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_problem_org.txt">problem formatted</a></p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_problem_adj.txt">problem formatted + adjusted pairwise matrix</a></p>
+        <li> <h5> outputs </h5>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_solution.txt">solution by ABC + AHP Saaty's method</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/p_list.txt">data by code</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_problem_org.txt">problem formatted</a></p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/clssp/bia/vclss-mcc.0-1/results/AHP_problem_adj.txt">problem formatted + adjusted pairwise matrix</a></p> </li>
 
-    <h3 id="vdpc_dpc"> COPSolver: library for solving the demand pattern classification problem </h3>
+        <li> <h3 id="vdpc_dpc"> COPSolver: library for solving the demand pattern classification problem </h3> </li>
 
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/config.txt">config.txt</a></p>
+        <li> <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/config.txt">config.txt</a></p> </li>
 
-    <h4> car mechanics company </h4>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/erika/data.txt">data.txt</a> </p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/erika/williams_solution.txt">solution by Williams's method</a> </p>
+        <li> <h4> car mechanics company </h4>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/erika/data.txt">data.txt</a> </p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/erika/williams_solution.txt">solution by Williams's method</a> </p></li>
 
-    <h4> furniture trades company </h4>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/alexia/data.txt">data.txt</a> </p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/alexia/williams_solution.txt">solution by Williams's method</a> </p>
+        <li> <h4> furniture trades company </h4>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/alexia/data.txt">data.txt</a> </p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/alexia/williams_solution.txt">solution by Williams's method</a> </p> </li>
 
-    <h4> plastic packaging manufacturing company </h4>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/bia/data.txt">data.txt</a> </p>
-    <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/bia/williams_solution.txt">solution by Williams's method</a> </p>
+        <li> <h4> plastic packaging manufacturing company </h4>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/bia/data.txt">data.txt</a> </p>
+        <p> <a href="https://tbfraga.github.io/COPSolver/benchmarks/dpcp/bia/williams_solution.txt">solution by Williams's method</a> </p> </li>
+
+     <div>
 </div>
 
 </div>
