@@ -22,7 +22,6 @@ li {
 }
  
 li a {
-    display: block;
     color: #fff;
     text-decoration: none;
     transition: background-color 0.3s;
