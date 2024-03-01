@@ -48,7 +48,7 @@ li a:hover {
 }
  
 .headbar {
-    height: 10vh;
+    height: 20vh;
     left: 0;
     top: 0;
     background-color: #136a13;
@@ -61,7 +61,7 @@ li a:hover {
     width: 200px;
     height: 120vh;
     left: 0;
-    top: 10vh;
+    top: 20vh;
     padding: 20px;
     background-color: #136a13;
     color: #fff;
@@ -72,7 +72,7 @@ li a:hover {
 .content {
     flex: 1;
     left: 20px;
-    top: 10vh;
+    top: 20vh;
     box-sizing: border-box;
     margin-left: 200px;
     text-align: justify;
