@@ -71,18 +71,6 @@ li a:hover {
     position: fixed;
 }
  
-.sidebar {
-    width: 200px;
-    height: 120vh;
-    left: 0;
-    top: 15vh;
-    padding: 20px;
-    background-color: #136a13;
-    color: #fff;
-    box-sizing: border-box;
-    position: fixed;
-}
- 
 .content {
     flex: 1;
     left: 200px;
@@ -110,20 +98,5 @@ li a:hover {
 .nemo a:hover {
     background-color: #2980b9;
 }
- 
-.sidebar a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    margin-bottom: 10px;
-    transition: background-color 0.3s;
-    border-radius: 10px;
-}
- 
-/* Change background color on hover */
-.sidebar a:hover {
-    background-color: #2980b9;
-    border-radius: 10px;
-}
+
 
