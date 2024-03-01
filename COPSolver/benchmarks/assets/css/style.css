@@ -8,6 +8,39 @@ body {
     padding: 0;
 }
  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: #dddddd;
+    border-radius: 25px;
+}
+ 
+li {
+    display: inline;
+}
+ 
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+li a:hover:not(.active) {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+ 
+.active {
+    background-color: #04AA6D; 
+    border-radius: 25px;
+}
+ 
 .container {
     height: 120vh;
     box-sizing: border-box;
@@ -52,6 +85,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s;
+    border-radius: 10px;
 }
  
 /* Change background color on hover */
