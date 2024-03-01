@@ -1,4 +1,4 @@
-// benchmark - multicriteria classification problem - alexia's data file
+// benchmark - multicriteria classification problem - alexia's_adjusted data file
 
 // number of criteria, UNSIGNED INT (NC):
 

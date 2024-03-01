@@ -1,4 +1,6 @@
---> Data reordered:
+// COPSolver benchmark - multicriteria classification - solution (problem reordered - adjusted matrix) - alexia's_adjusted data file
+
+--> Data computationally adjusted for forcing consistency:
 
 number of criteria: 6
 

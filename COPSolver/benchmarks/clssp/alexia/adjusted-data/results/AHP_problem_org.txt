@@ -1,3 +1,5 @@
+// COPSolver benchmark - multicriteria classification - solution (original problem - original matrix) - alexia's_adjusted data file
+
 --> Data:
 
 number of criteria: 6
