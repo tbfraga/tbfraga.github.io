@@ -80,6 +80,19 @@ li a:hover {
     box-sizing: border-box;
     position: fixed;
 }
+
+.nemo {
+}
+
+.nemo a {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
  
 .content {
     flex: 1;
