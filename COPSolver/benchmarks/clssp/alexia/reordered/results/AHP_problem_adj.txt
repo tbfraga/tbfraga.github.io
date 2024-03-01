@@ -1,41 +1,43 @@
---> Data reordered:
+// COPSolver benchmark - multicriteria classification - solution (problem reordered - adjusted matrix) - alexia's data file
+
+--> Data computationally adjusted for forcing consistency:
 
 number of criteria: 6
 
 pairwise comparisons matrix: 
 
   1.00  3.00  7.00  9.00  9.00  9.00
-  0.33  1.00  3.00  5.00  9.00  9.00
-  0.14  0.33  1.00  3.00  5.00  5.00
-  0.11  0.20  0.33  1.00  5.00  5.00
-  0.11  0.11  0.20  0.20  1.00  1.00
-  0.11  0.11  0.20  0.20  1.00  1.00
+  0.33  1.00  3.00  7.00  9.00  9.00
+  0.14  0.33  1.00  3.00  3.00  5.00
+  0.11  0.14  0.33  1.00  1.00  7.00
+  0.11  0.11  0.33  1.00  1.00  3.00
+  0.11  0.11  0.20  0.14  0.33  1.00
 
 pairwise comparison matrix index: 
 
      4     5     7     8     8     8
-     3     4     5     6     8     8
-     1     3     4     5     6     6
-     0     2     3     4     6     6
-     0     0     2     2     4     4
-     0     0     2     2     4     4
+     3     4     5     7     8     8
+     1     3     4     5     5     6
+     0     1     3     4     4     7
+     0     0     3     4     4     5
+     0     0     2     1     3     4
 
-main eigenvalue: 6.510
+main eigenvalue: 6.568
 
-main eigenvector:   0.864  0.436  0.205  0.131  0.047  0.047
+main eigenvector:   0.850  0.474  0.185  0.105  0.078  0.040
 
-consistency rate: 0.082
+consistency rate: 0.092
 
 Congratulations, your matrix of pairwise comparation is consistent !!! 
 
 weight: 
 
-  0.50	           billing    acmSum        0.80        0.95        1.00
-  0.25	       criticality     value   242000.00    61640.00        0.00
-  0.12	     repairability     value    68380.00    21520.00        0.00
-  0.08	        lead-times    acmSum        0.80        0.95        1.00
-  0.03	      obsolescence    binary        1.00        0.00        0.00
-  0.03	       commonality     value     5300.00     1200.00        0.00
+  0.49	           billing    acmSum        0.80        0.95        1.00
+  0.27	       criticality     value   242000.00    61640.00        0.00
+  0.11	     repairability     value    68380.00    21520.00        0.00
+  0.06	        lead-times    acmSum        0.80        0.95        1.00
+  0.05	      obsolescence    binary        1.00        0.00        0.00
+  0.02	       commonality     value     5300.00     1200.00        0.00
 
 billing index: 0
 

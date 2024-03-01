@@ -1,40 +1,42 @@
+// COPSolver benchmark - multicriteria classification - solution (original problem - original matrix) - alexia's data file
+
 --> Data:
 
 number of criteria: 6
 
 pairwise comparisons matrix: 
 
-  1.00  0.33  0.20  5.00  0.11  5.00
-  3.00  1.00  0.33  5.00  0.14  5.00
-  5.00  3.00  1.00  9.00  0.33  9.00
-  0.20  0.20  0.11  1.00  0.11  1.00
+  1.00  0.20  0.14  7.00  0.11  5.00
+  5.00  1.00  0.33  5.00  0.14  3.00
+  7.00  3.00  1.00  9.00  0.33  9.00
+  0.14  0.20  0.11  1.00  0.11  1.00
   9.00  7.00  3.00  9.00  1.00  9.00
-  0.20  0.20  0.11  1.00  0.11  1.00
+  0.20  0.33  0.11  1.00  0.11  1.00
 
 pairwise comparison matrix index: 
 
-     4     3     2     6     0     6
-     5     4     3     6     1     6
-     6     5     4     8     3     8
-     2     2     0     4     0     4
+     4     2     1     7     0     6
+     6     4     3     6     1     5
+     7     5     4     8     3     8
+     1     2     0     4     0     4
      8     7     5     8     4     8
-     2     2     0     4     0     4
+     2     3     0     4     0     4
 
-main eigenvalue: 6.511
+main eigenvalue: 6.845
 
-main eigenvector:  -0.131 -0.205 -0.436 -0.047 -0.864 -0.047
+main eigenvector:  -0.130 -0.221 -0.462 -0.044 -0.846 -0.049
 
-consistency rate: 0.082
+consistency rate: 0.136
 
-Congratulations, your matrix of pairwise comparation is consistent !!! 
+Sorry, your matrix of pairwise comparation is inconsistent !!! 
 
 weight: 
 
-  0.08	        lead-times    acmSum        0.80        0.95        1.00
-  0.12	     repairability     value    68380.00    21520.00        0.00
-  0.25	       criticality     value   242000.00    61640.00        0.00
+  0.07	        lead-times    acmSum        0.80        0.95        1.00
+  0.13	     repairability     value    68380.00    21520.00        0.00
+  0.26	       criticality     value   242000.00    61640.00        0.00
   0.03	       commonality     value     5300.00     1200.00        0.00
-  0.50	           billing    acmSum        0.80        0.95        1.00
+  0.48	           billing    acmSum        0.80        0.95        1.00
   0.03	      obsolescence    binary        1.00        0.00        0.00
 
 billing index: 4
