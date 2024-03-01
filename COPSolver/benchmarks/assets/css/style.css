@@ -87,7 +87,8 @@ li a:hover {
     left: 200px;
     top: 15vh;
     box-sizing: border-box;
-    margin-left: 200px;
+    margin-left: 15vh;
+    margin-top: 200px;
     padding: 15px;
     text-align: justify;
 }
