@@ -37,7 +37,8 @@ body {
  
 .content {
     flex: 1;
-    padding: 20px;
+    left: 20px;
+    top: 20vh;
     box-sizing: border-box;
     margin-left: 200px;
     text-align: justify;
