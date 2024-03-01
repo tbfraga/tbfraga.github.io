@@ -60,7 +60,7 @@ li a:hover {
 }
  
 .headbar {
-    height: 20vh;
+    height: 15vh;
     left: 0;
     top: 0;
     background-color: #136a13;
@@ -73,17 +73,26 @@ li a:hover {
     width: 200px;
     height: 120vh;
     left: 0;
-    top: 20vh;
+    top: 15vh;
     padding: 20px;
     background-color: #136a13;
     color: #fff;
     box-sizing: border-box;
     position: fixed;
 }
-
+ 
+.content {
+    flex: 1;
+    left: 15px;
+    top: 20vh;
+    box-sizing: border-box;
+    margin-left: 200px;
+    text-align: justify;
+}
+ 
 .nemo {
 }
-
+ 
 .nemo a {
     display: inline;
     color: #fff;
@@ -92,15 +101,6 @@ li a:hover {
     margin-bottom: 10px;
     transition: background-color 0.3s;
     border-radius: 10px;
-}
- 
-.content {
-    flex: 1;
-    left: 20px;
-    top: 20vh;
-    box-sizing: border-box;
-    margin-left: 200px;
-    text-align: justify;
 }
  
 .sidebar a {
